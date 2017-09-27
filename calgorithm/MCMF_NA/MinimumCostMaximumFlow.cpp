@@ -1,5 +1,4 @@
-//#include "stdafx.h"
-//#include "plan.h"
+
 #include "MinimumCostMaximumFlow.h"
 
 #ifdef _DEBUG
@@ -99,7 +98,7 @@ void MinimumCostMaximumFlow::inputdata()
 		for (j = 0; j < n; j++)
 		{
 			fscanf(fp, "%s", mys);
-			if (strcmp(mys, "¡Þ") == 0)
+			if (strcmp(mys, "Â¡Ãž") == 0)
 				C[i][j] = infinity;
 			else C[i][j] = atof(mys);
 		}
@@ -108,7 +107,7 @@ void MinimumCostMaximumFlow::inputdata()
 		for (j = 0; j < n; j++)
 		{
 			fscanf(fp, "%s", mys);
-			if (strcmp(mys, "¡Þ") == 0)
+			if (strcmp(mys, "Â¡Ãž") == 0)
 				B[i][j] = infinity;
 			else B[i][j] = atof(mys);
 		}
